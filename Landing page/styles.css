@@ -1,0 +1,179 @@
+body {
+    max-height: 1912px;
+    width: 1440px;
+    margin: 0px auto;
+    font-family: Roboto, sans-serif;
+    background-color: grey;
+}
+
+.nav {
+    background-color: #1f2937;
+    padding: 10px 100px 100px;
+    margin: 0px;
+}
+
+.header {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.main-text {
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.mosaic {
+    width: 650px;
+}
+
+.sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    margin: 0px;
+    padding: 5px;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.information {
+    background-color: white;
+    margin: 0px;
+    padding: 32px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+div .pic {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 15px;
+    gap: 5px;
+}
+
+.sec-ill {
+    font-size: 18px;
+    color: black;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.q-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    padding: 48px 200px;
+}
+
+.line {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#author {
+    align-self: flex-end;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+.card {
+    width: 1000px;
+    display: flex;
+    background-color: #3882f6;
+    margin: 0px;
+    padding: 50px 80px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.call-title {
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+    margin: 0px;
+}
+
+.call-text {
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}
+
+button {
+    font-size: 24px;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 26px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: aliceblue;
+}
